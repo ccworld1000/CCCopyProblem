@@ -14,6 +14,7 @@
 		42EE371625774F8200A75BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EE371525774F8200A75BC0 /* Assets.xcassets */; };
 		42EE371925774F8200A75BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE371725774F8200A75BC0 /* LaunchScreen.storyboard */; };
 		42EE371C25774F8200A75BC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE371B25774F8200A75BC0 /* main.m */; };
+		42EE3727257750C800A75BC0 /* CCCopyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE3726257750C800A75BC0 /* CCCopyItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		42EE371825774F8200A75BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42EE371A25774F8200A75BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42EE371B25774F8200A75BC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42EE3725257750C800A75BC0 /* CCCopyItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCopyItem.h; sourceTree = "<group>"; };
+		42EE3726257750C800A75BC0 /* CCCopyItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCopyItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				42EE371725774F8200A75BC0 /* LaunchScreen.storyboard */,
 				42EE371A25774F8200A75BC0 /* Info.plist */,
 				42EE371B25774F8200A75BC0 /* main.m */,
+				42EE3725257750C800A75BC0 /* CCCopyItem.h */,
+				42EE3726257750C800A75BC0 /* CCCopyItem.m */,
 			);
 			path = CCCopyProblem;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EE3727257750C800A75BC0 /* CCCopyItem.m in Sources */,
 				42EE371125774F8100A75BC0 /* ViewController.m in Sources */,
 				42EE370B25774F8100A75BC0 /* AppDelegate.m in Sources */,
 				42EE371C25774F8200A75BC0 /* main.m in Sources */,
